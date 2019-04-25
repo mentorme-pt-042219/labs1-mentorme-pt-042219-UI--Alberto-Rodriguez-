@@ -151,10 +151,6 @@ h1 {
   font-family: anton;
   color: #fff;
 }
-h2 {
-  font-size: 2rem;
-  color: #e0e0e0;
-}
 nav {
   display: flex;
   justify-content: flex-end;
@@ -211,4 +207,20 @@ a {
 h2 {
   font-size: 2rem;
   color: #e0e0e0;
+}
+#sammy {
+  display: flex;
+}
+#sammy img {
+  width: 100%;
+}
+.sammy {
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 1.75rem;
+  border-bottom: 2px solid #e0e0e0;
+}
+.sammy p {
+  margin-bottom: 20px;
+  color: grey;
 }
