@@ -151,6 +151,10 @@ h1 {
   font-family: anton;
   color: #fff;
 }
+h2 {
+  font-size: 2rem;
+  color: #e0e0e0;
+}
 nav {
   display: flex;
   justify-content: flex-end;
