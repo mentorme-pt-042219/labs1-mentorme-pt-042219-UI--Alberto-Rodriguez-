@@ -161,6 +161,9 @@ a {
   text-decoration: none;
   margin: 10px 20px 0px 0px;
 }
+.head p {
+  font-size: 2rem;
+}
 .mentor-button {
   text-align: center;
   background: transparent;
