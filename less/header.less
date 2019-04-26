@@ -32,6 +32,7 @@ a {
 
 .mentor-button:hover {
     background-color: @white;
+    color: black;
 }
 .business-button {
     .buttons
@@ -39,6 +40,7 @@ a {
 
 .business-button:hover {
     background-color: @white;
+    color: black;
 }
 .head-content {
     display: flex;
@@ -48,3 +50,48 @@ a {
     width: 400px;
 }
 
+#dropbtn {
+    background-color: @clear ;
+    color: white;
+    padding: 16px;
+    font-size: 30px;
+    border: none;
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+      }
+    
+      
+  }
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: @clear;
+    min-width: 160px;
+
+    a {
+        color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+    }
+  }
+
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: @white; 
+    color: black;
+}

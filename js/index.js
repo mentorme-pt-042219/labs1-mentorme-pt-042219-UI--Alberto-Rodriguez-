@@ -4,3 +4,4 @@ btn.forEach(function(e){
         console.log('i was clicked');
     })
 });
+

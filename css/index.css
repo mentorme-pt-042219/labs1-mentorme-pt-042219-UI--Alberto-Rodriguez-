@@ -173,9 +173,11 @@ a {
   font-size: 1.25rem;
   border-radius: 10px;
   border: 1px solid #fff;
+  color: #fff;
 }
 .mentor-button:hover {
   background-color: #fff;
+  color: black;
 }
 .business-button {
   text-align: center;
@@ -183,9 +185,11 @@ a {
   font-size: 1.25rem;
   border-radius: 10px;
   border: 1px solid #fff;
+  color: #fff;
 }
 .business-button:hover {
   background-color: #fff;
+  color: black;
 }
 .head-content {
   display: flex;
@@ -193,10 +197,46 @@ a {
 .header-image {
   width: 400px;
 }
+#dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 30px;
+  border: none;
+}
+#dropbtn .dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: transparent;
+  min-width: 160px;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropdown:hover .dropbtn {
+  background-color: #fff;
+  color: black;
+}
 .about {
   text-align: center;
   margin-top: 3rem;
   font-size: 1.75rem;
+}
+.about h2 {
+  margin-bottom: 20px;
 }
 .about p {
   margin-bottom: 20px;
@@ -216,6 +256,12 @@ h2 {
 @media (max-width: 500px) {
   #dev {
     display: block;
+  }
+}
+@media (max-width: 800px) {
+  #dev {
+    flex-direction: column-reverse;
+    margin-top: 10px;
   }
 }
 .dev-img {
@@ -249,6 +295,11 @@ h2 {
   #dev2 {
     display: block;
     flex-direction: column;
+  }
+}
+@media (max-width: 800px) {
+  #dev2 {
+    flex-direction: column-reverse;
   }
 }
 footer {
