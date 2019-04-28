@@ -1,3 +1,38 @@
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #5F76D0;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 7px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+.button:hover span {
+  padding-right: 25px;
+}
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -150,9 +185,10 @@ header {
   height: 100vh;
 }
 h1 {
-  font-size: 3.25em;
+  font-size: 6.25em;
   font-family: anton;
   color: #fff;
+  text-shadow: 6px 7px gray;
 }
 nav {
   display: flex;
@@ -167,27 +203,21 @@ a {
 .head p {
   font-size: 2rem;
 }
-.mentor-button {
+.register-button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: #5F76D0;
+  border: none;
+  color: #FFFFFF;
   text-align: center;
-  background: transparent;
-  font-size: 1.25rem;
-  border-radius: 10px;
-  border: 1px solid #fff;
-  color: #fff;
+  font-size: 28px;
+  padding: 7px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
 }
-.mentor-button:hover {
-  background-color: #fff;
-  color: black;
-}
-.business-button {
-  text-align: center;
-  background: transparent;
-  font-size: 1.25rem;
-  border-radius: 10px;
-  border: 1px solid #fff;
-  color: #fff;
-}
-.business-button:hover {
+.register-button:hover {
   background-color: #fff;
   color: black;
 }
