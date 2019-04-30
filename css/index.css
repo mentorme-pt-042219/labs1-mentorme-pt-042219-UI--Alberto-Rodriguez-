@@ -251,7 +251,7 @@ a {
   display: block;
 }
 .dropdown-content a:hover {
-  background-color: #ddd;
+  background-color: #5F76D0;
 }
 .dropdown:hover .dropdown-content {
   display: block;
