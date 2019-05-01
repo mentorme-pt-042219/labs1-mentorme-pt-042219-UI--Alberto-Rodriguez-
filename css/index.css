@@ -179,7 +179,7 @@ hr {
   border-top: #e0e0e0;
 }
 header {
-  background-image: url("images/riccardo-annandale-140624-unsplash.jpg");
+  background-image: linear-gradient(to top, #111011, #1d1a1e, #28242d, #312f3c, #393b4c, #454d5f, #526071, #607483, #7e929c, #9fb1b5, #c3d0d1, #e9f0ef);
   background-size: cover;
   background-attachment: fixed;
   height: 100vh;
