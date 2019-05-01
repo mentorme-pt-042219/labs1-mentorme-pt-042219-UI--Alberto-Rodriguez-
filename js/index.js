@@ -42,7 +42,7 @@ input.forEach(function(element){
 
  const newParagraph = document.createElement('p');
 
-newParagraph.textContent = "hello Lorem ipsum dolor sit amet, consectetur adipisicing elit.Eligendi non quis exercitationem culpa nesciunt nihil aut nostrum explicabo reprehenderit optio amet ab temporibus asperiores quasi cupiditate. Voluptatum ducimus voluptates voluptas?"
+newParagraph.textContent = "Born in Los Angeles California in 1990 and moved to Riverside when I was 6. Later moved to Des Moines Iowa. Proud father of 3 girls Arianna, Jasmin and Jordyn. I enjoy watching sports, especially football and boxing. When im not spending time with my family, you can find me at the gym or on my computer coding. I love to code and learn new tricks when it comes to web development. I love to spend time with my family any chance I get.  "
 
 const bottomContent = document.querySelector('.dev')
 bottomContent.appendChild(newParagraph);
