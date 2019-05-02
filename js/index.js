@@ -5,7 +5,7 @@ btn.forEach(function(e){
     })
 });
 
-//Used click to change the background on the buttons to red and then dblclick to change back to default color
+//Used click to change the background on the buttons to black and then dblclick to change back to default color
 const button = document.querySelectorAll('.btn');
 button.forEach(function(element){
     element.addEventListener('click', function(e){
@@ -19,9 +19,9 @@ button.forEach(function(element){
        })
    }) 
 
-   button.forEach(function(element){
+//    button.forEach(function(element){
 
-   })
+//    })
 });
 
 // Used Mouseover and Mouseleave (changes color of p tags to blue when mouse hovers over and back to black when mouse isnt hovering over.)
