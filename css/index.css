@@ -281,6 +281,7 @@ h2 {
   float: left;
   width: 500px;
   height: 500px;
+  margin-top: 20px;
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
